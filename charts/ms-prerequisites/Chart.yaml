@@ -1,0 +1,4 @@
+apiVersion: v2
+name: ms-prerequisites
+description: Crea namespace y secrets comunes
+version: 1.0.0
