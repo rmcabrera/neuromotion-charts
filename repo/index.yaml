@@ -3,54 +3,54 @@ entries:
   ms-doctores:
   - apiVersion: v2
     appVersion: v2
-    created: "2025-06-15T11:33:14.7084566-05:00"
+    created: "2025-06-17T17:20:34.8891914-05:00"
     description: Microservicio ms-doctores
-    digest: 2e9e041b80006eb27d0492bf611ac832534c2d2418966d57b3100eea33504056
+    digest: 611dfd58afed7045f59f09a114ad7ed2a4e4b840416f95c8333104a740d05256
     name: ms-doctores
     urls:
-    - https://rmcabrera.github.io/neuromotion-charts/ms-doctores-1.0.0.tgz
+    - ms-doctores-1.0.0.tgz
     version: 1.0.0
   ms-prerequisites:
   - apiVersion: v2
     appVersion: v1
-    created: "2025-06-15T11:33:14.7090189-05:00"
+    created: "2025-06-17T17:20:34.890305-05:00"
     description: Crea namespace y secrets comunes
     digest: a9215ceb30bfa96813b4c5fd494e70185ac8a5388c306727e321896195207e6e
     name: ms-prerequisites
     type: application
     urls:
-    - https://rmcabrera.github.io/neuromotion-charts/ms-prerequisites-1.0.0.tgz
+    - ms-prerequisites-1.0.0.tgz
     version: 1.0.0
   ms-usuarios:
   - apiVersion: v2
     appVersion: v2
-    created: "2025-06-15T11:33:14.7095766-05:00"
+    created: "2025-06-17T17:20:34.8908923-05:00"
     description: Microservicio ms-usuarios
     digest: 6a8612b451996eedd1be2869b7d64c7ddc06c318ee9994cd0882f0e3d34a8aee
     name: ms-usuarios
     urls:
-    - https://rmcabrera.github.io/neuromotion-charts/ms-usuarios-1.0.0.tgz
+    - ms-usuarios-1.0.0.tgz
     version: 1.0.0
   mysql-doctores:
   - apiVersion: v2
     appVersion: "8.0"
-    created: "2025-06-15T11:33:14.710694-05:00"
+    created: "2025-06-17T17:20:34.8915288-05:00"
     description: MySQL database for ms-doctores
     digest: 0a6180e421b05f3e2363290752a7ef7acab6fa9e2ff07048cc096ffd13a7f06b
     name: mysql-doctores
     urls:
-    - https://rmcabrera.github.io/neuromotion-charts/mysql-doctores-0.1.0.tgz
+    - mysql-doctores-0.1.0.tgz
     version: 0.1.0
   mysql-usuarios:
   - apiVersion: v2
     appVersion: "8"
-    created: "2025-06-15T11:33:14.7112485-05:00"
+    created: "2025-06-17T17:20:34.8921156-05:00"
     description: Helm chart para el despliegue de la base de datos MySQL del microservicio
       ms-usuarios
     digest: 6db66755573d718062e27ca4f09b0b1dfd09046a6bdd760af8a02f251260f07c
     name: mysql-usuarios
     type: application
     urls:
-    - https://rmcabrera.github.io/neuromotion-charts/mysql-usuarios-0.1.0.tgz
+    - mysql-usuarios-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-15T11:33:14.7072553-05:00"
+generated: "2025-06-17T17:20:34.8880352-05:00"
