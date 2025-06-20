@@ -3,40 +3,19 @@ entries:
   ms-doctores:
   - apiVersion: v2
     appVersion: v2
-    created: "2025-06-17T17:31:48.5088226-05:00"
+    created: "2025-06-20T11:56:59.3444826-05:00"
     description: Microservicio ms-doctores
-    digest: 611dfd58afed7045f59f09a114ad7ed2a4e4b840416f95c8333104a740d05256
+    digest: ff142173299366febd8767b8ad7235ef23638732791f9677b7e034f252d4db55
     name: ms-doctores
     urls:
     - ms-doctores-1.0.0.tgz
     version: 1.0.0
-  ms-prerequisites:
-  - apiVersion: v2
-    appVersion: v1
-    created: "2025-06-17T17:31:48.5102301-05:00"
-    description: Crea namespace y secrets comunes
-    digest: a9215ceb30bfa96813b4c5fd494e70185ac8a5388c306727e321896195207e6e
-    name: ms-prerequisites
-    type: application
-    urls:
-    - ms-prerequisites-1.0.0.tgz
-    version: 1.0.0
-  ms-usuarios:
-  - apiVersion: v2
-    appVersion: v2
-    created: "2025-06-17T17:31:48.5119531-05:00"
-    description: Microservicio ms-usuarios
-    digest: 5ba1f49214adcdb9ae2cc75583bb73abafc518c4ece7454945f212b53478f60a
-    name: ms-usuarios
-    urls:
-    - ms-usuarios-1.0.0.tgz
-    version: 1.0.0
   mysql-doctores:
   - apiVersion: v2
     appVersion: "8.0"
-    created: "2025-06-17T17:31:48.5136031-05:00"
+    created: "2025-06-20T11:56:59.34579-05:00"
     description: MySQL database for ms-doctores
-    digest: 0a6180e421b05f3e2363290752a7ef7acab6fa9e2ff07048cc096ffd13a7f06b
+    digest: 4b4e3125362bf82a4a950768ad78a831692685ed470d5dd341b87a9ca2755aaa
     name: mysql-doctores
     urls:
     - mysql-doctores-0.1.0.tgz
@@ -44,13 +23,13 @@ entries:
   mysql-usuarios:
   - apiVersion: v2
     appVersion: "8"
-    created: "2025-06-17T17:31:48.5150189-05:00"
+    created: "2025-06-20T11:56:59.3463515-05:00"
     description: Helm chart para el despliegue de la base de datos MySQL del microservicio
       ms-usuarios
-    digest: 6db66755573d718062e27ca4f09b0b1dfd09046a6bdd760af8a02f251260f07c
+    digest: 44130bc42a35e8c7231eaf1c2dc7681dc201f4fff81674ef1cf1ba0d014c4af1
     name: mysql-usuarios
     type: application
     urls:
     - mysql-usuarios-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-17T17:31:48.506938-05:00"
+generated: "2025-06-20T11:56:59.3432973-05:00"
