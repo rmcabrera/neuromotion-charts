@@ -28,6 +28,10 @@ tolerations: []
 
 affinity: {}
 
+serviceAccount:
+  create: false
+  name: ""
+
 autoscaling:
   enabled: false
   minReplicas: 1
