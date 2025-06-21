@@ -3,7 +3,7 @@ entries:
   ms-doctores:
   - apiVersion: v2
     appVersion: v2
-    created: "2025-06-20T21:02:35.4845847-05:00"
+    created: "2025-06-20T21:09:27.0166128-05:00"
     description: Microservicio ms-doctores
     digest: 78a97873aae459ab30e2b7a77ad5a98f8e164670fda9b005e53eb12b0256db9a
     name: ms-doctores
@@ -13,7 +13,7 @@ entries:
   ms-prerequisites:
   - apiVersion: v2
     appVersion: v1
-    created: "2025-06-20T21:02:35.4845847-05:00"
+    created: "2025-06-20T21:09:27.0187345-05:00"
     description: Crea namespace y secrets comunes
     digest: 0ceae6d2aa2d28389abb5264364df50cc460317c9375bb0d80595ef93c604832
     name: ms-prerequisites
@@ -24,7 +24,7 @@ entries:
   ms-usuarios:
   - apiVersion: v2
     appVersion: v2
-    created: "2025-06-20T21:02:35.4891246-05:00"
+    created: "2025-06-20T21:09:27.0198321-05:00"
     description: Microservicio ms-usuarios
     digest: 432a6405c2e3dbce580437a4615c04c3756e9a2b1ea8cdc20ae1209c7bfb1cd4
     name: ms-usuarios
@@ -34,7 +34,7 @@ entries:
   mysql-doctores:
   - apiVersion: v2
     appVersion: "8.0"
-    created: "2025-06-20T21:02:35.4901521-05:00"
+    created: "2025-06-20T21:09:27.0209781-05:00"
     description: MySQL database for ms-doctores
     digest: ebafa860005e7265d138ae610315188f7857c786eda22c812d75b6d5225fcf12
     name: mysql-doctores
@@ -44,7 +44,7 @@ entries:
   mysql-usuarios:
   - apiVersion: v2
     appVersion: "8"
-    created: "2025-06-20T21:02:35.4901521-05:00"
+    created: "2025-06-20T21:09:27.0220637-05:00"
     description: Helm chart para el despliegue de la base de datos MySQL del microservicio
       ms-usuarios
     digest: d64feecc0101f6196674f7ea871900154e5faafbcecaa782b6e68b78026f9358
@@ -56,11 +56,11 @@ entries:
   neuromotion-frontend:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-20T21:02:35.4901521-05:00"
+    created: "2025-06-20T21:09:27.0231684-05:00"
     description: A Helm chart for the Neuromotion Frontend application
-    digest: 75ee41b7ae7cba0667ebb242aea6808f67d4e6334dab37438bbe3e8544dc8a7c
+    digest: 90c2d8d96636ddeca131613fab2d8c9b7e7e8518a86e28b18ff762b5a902d5e6
     name: neuromotion-frontend
     urls:
     - neuromotion-frontend-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-20T21:02:35.4845847-05:00"
+generated: "2025-06-20T21:09:27.0103051-05:00"
