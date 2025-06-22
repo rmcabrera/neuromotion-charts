@@ -12,10 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        {{- include "ms-doctores.selectorLabels" . | nindent 8 }}
-      annotations:
-        prometheus.io/scrape: "true"
-        prometheus.io/port: "{{ .Values.service.port }}"
+        app: {{ .Chart.Name }}
     spec:
       containers:
         - name: {{ .Chart.Name }}
@@ -64,19 +61,11 @@ spec:
                 secretKeyRef:
                   name: db-credentials
                   key: MYSQL_ROOT_PASSWORD
-            - name: POD_NAME
-              valueFrom:
-                fieldRef:
-                  fieldPath: metadata.name
-            - name: POD_ID
-              valueFrom:
-                fieldRef:
-                  fieldPath: status.podIP
-            - name: MS_USUARIOS_URL
+            - name: MS_DOCTORES_URL
               valueFrom:
                 configMapKeyRef:
                   name: {{ .Chart.Name }}-config
-                  key: MS_USUARIOS_URL
+                  key: MS_DOCTORES_URL
             - name: SPRING_CLOUD_KUBERNETES_DISCOVERY_ENABLED
               value: "false"
           resources:
