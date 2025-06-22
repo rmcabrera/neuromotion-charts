@@ -1,9 +1,9 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: prom/prometheus
   pullPolicy: IfNotPresent
-  tag: ""
+  tag: v2.52.0  
 
 imagePullSecrets: []
 nameOverride: ""
@@ -41,12 +41,19 @@ resources: {}
 
 livenessProbe:
   httpGet:
-    path: /
+    path: /-/healthy
     port: http
+    scheme: HTTP
+  initialDelaySeconds: 10
+  timeoutSeconds: 5
+
 readinessProbe:
   httpGet:
-    path: /
+    path: /-/ready
     port: http
+    scheme: HTTP
+  initialDelaySeconds: 10
+  timeoutSeconds: 5
 
 autoscaling:
   enabled: false
