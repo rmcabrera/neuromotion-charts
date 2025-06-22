@@ -1,6 +1,4 @@
-namespaces:
-  - ms-app
-  - monitoring
+namespace: ms-app
 
 dbCredentials:
   rootPassword: YWRtaW4=  # base64 de admin

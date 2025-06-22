@@ -1,7 +1,4 @@
-{{- range .Values.namespaces }}
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: {{ . }}
----
-{{- end }}
+  name: {{ .Values.namespace }}
