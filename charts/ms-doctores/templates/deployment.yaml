@@ -61,11 +61,11 @@ spec:
                 secretKeyRef:
                   name: db-credentials
                   key: MYSQL_ROOT_PASSWORD
-            - name: MS_DOCTORES_URL
+            - name: MS_USUARIOS_URL
               valueFrom:
                 configMapKeyRef:
                   name: {{ .Chart.Name }}-config
-                  key: MS_DOCTORES_URL
+                  key: MS_USUARIOS_URL
             - name: SPRING_CLOUD_KUBERNETES_DISCOVERY_ENABLED
               value: "false"
           resources:
