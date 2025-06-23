@@ -1,22 +1,11 @@
 apiVersion: v1
 entries:
-  grafana:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-06-22T17:55:18.9223549-05:00"
-    description: A Helm chart for Kubernetes
-    digest: a812421c45714916106506f9e4142309a6b8d3b696bd485ec7147792ae3050d1
-    name: grafana
-    type: application
-    urls:
-    - grafana-0.1.0.tgz
-    version: 0.1.0
   ms-doctores:
   - apiVersion: v2
     appVersion: v2
-    created: "2025-06-22T17:55:18.9236305-05:00"
+    created: "2025-06-22T19:16:01.420459-05:00"
     description: Microservicio ms-doctores
-    digest: 063ce0e6329f010f135b47c423b0cb482e21b518e8250a25f101c572c4041475
+    digest: 117778b0c62c90315050806b8e9ee2f983ffb875aff3e4ba2b1f5fa4f5426958
     name: ms-doctores
     urls:
     - ms-doctores-1.0.0.tgz
@@ -24,9 +13,9 @@ entries:
   ms-prerequisites:
   - apiVersion: v2
     appVersion: v1
-    created: "2025-06-22T17:55:18.9256994-05:00"
+    created: "2025-06-22T19:16:01.4209983-05:00"
     description: Crea namespace y secrets comunes
-    digest: a025492132ebb86af053e95898d11d8a62b9b4fc470f408b8ff87ded127239b2
+    digest: a44e51726bc95ab5aa11e39a970ea5fd0406f149bd5d12424c0cc0bad88e61d5
     name: ms-prerequisites
     type: application
     urls:
@@ -35,9 +24,9 @@ entries:
   ms-usuarios:
   - apiVersion: v2
     appVersion: v2
-    created: "2025-06-22T17:55:18.9279089-05:00"
+    created: "2025-06-22T19:16:01.4220769-05:00"
     description: Microservicio ms-usuarios
-    digest: 198bf76bee93d4f454b8b9c6b81a05c41d9c4121d00ac2003b770360c9d0cc7b
+    digest: da8bf308df3a076926fea1e7e64b803772f157f3e3fbcec0da20edfaeae43942
     name: ms-usuarios
     urls:
     - ms-usuarios-1.0.0.tgz
@@ -45,9 +34,9 @@ entries:
   mysql-doctores:
   - apiVersion: v2
     appVersion: "8.0"
-    created: "2025-06-22T17:55:18.9295247-05:00"
+    created: "2025-06-22T19:16:01.4231223-05:00"
     description: MySQL database for ms-doctores
-    digest: baf70b9fc7ef7e7bac49e117ba47e3e5683f62294f51ccc821ef3620c7775297
+    digest: 410f299ed2cb01594d7f38c49d0d5332ce14dbe81f4f72edb06aa61ac5a9b1d6
     name: mysql-doctores
     urls:
     - mysql-doctores-0.1.0.tgz
@@ -55,10 +44,10 @@ entries:
   mysql-usuarios:
   - apiVersion: v2
     appVersion: "8"
-    created: "2025-06-22T17:55:18.9295247-05:00"
+    created: "2025-06-22T19:16:01.4231223-05:00"
     description: Helm chart para el despliegue de la base de datos MySQL del microservicio
       ms-usuarios
-    digest: 308b9154d9470c7bfd10ad04b3570c8173b6baa238123403d05d31f14ccd3317
+    digest: f302c1d53ce076bf4c4eed7d00714335b28dab25cc2d45e246513877deb772ba
     name: mysql-usuarios
     type: application
     urls:
@@ -67,22 +56,11 @@ entries:
   neuromotion-frontend:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-22T17:55:18.9319193-05:00"
+    created: "2025-06-22T19:16:01.4246748-05:00"
     description: A Helm chart for the Neuromotion Frontend application
-    digest: 5768ed306c59c10a7a9359c1b233a2e6575127d44958a1ccbb048c7fe84c765b
+    digest: 91b55b6be23676f8115d54c83e6cc09976326e3440c85e1fcf21c94251df37ce
     name: neuromotion-frontend
     urls:
     - neuromotion-frontend-0.1.0.tgz
     version: 0.1.0
-  prometheus:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-06-22T17:55:18.934164-05:00"
-    description: A Helm chart for Kubernetes
-    digest: 705e9ec6eb54d0f685ba55527654f3619fc87d1002ebb832a1d39b10743a6d8c
-    name: prometheus
-    type: application
-    urls:
-    - prometheus-0.1.0.tgz
-    version: 0.1.0
-generated: "2025-06-22T17:55:18.9163906-05:00"
+generated: "2025-06-22T19:16:01.4160116-05:00"
